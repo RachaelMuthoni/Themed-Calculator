@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="css/start.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/theme1.css" />
+    <title>Calculator app</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="container">
+        <div class="topbar">
+            <h1>calc</h1>
+            <div class="input">
+                <span>THEME</span>
+                <div class="selectTheme">
+                    <div class="title">
+                        <p>1</p>
+                        <p>2</p>
+                        <p>3</p>
+                    </div>
+                    <div class="chooseTheme">
+                        <div class="theme1" data-theme="1"></div>
+                        <div class="theme2" data-theme="2"></div>
+                        <div class="theme3" data-theme="3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="input-field">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand">0</div>
+        </div>
+
+        <div class="allButton">
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button class="delete" data-delete>DEL</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>+</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>-</button>
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-operation>/</button>
+            <button data-operation>x</button>
+            <button class="column-span reset" data-all-clear>RESET</button>
+            <button class="column-span equals" data-equals>=</button>
+        </div>
+    </div>
+
+    <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by Rachael Muthoni.</div>
+</body>
+
+</html>

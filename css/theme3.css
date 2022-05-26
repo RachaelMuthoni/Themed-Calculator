@@ -1,0 +1,51 @@
+@import "resources.css";
+body {
+    background-color: var(--Very-dark-violet);
+}
+
+.selectTheme .chooseTheme {
+    background-color: var(--Very-dark-violet2);
+}
+
+.theme3 {
+    background-color: var(--Pure-cyan);
+}
+
+.input-field {
+    background-color: var(--Very-dark-violet2);
+}
+
+.previous-operand,
+.current-operand,
+.topbar {
+    color: var(--Light-yellow);
+}
+
+.allButton {
+    background-color: var(--Very-dark-violet2);
+}
+
+.allButton button {
+    color: var(--Very-dark-grayish-blue);
+    background-color: var(--Very-dark-violet);
+    box-shadow: 0 5px var(--Dark-magenta);
+    color: var(--Light-yellow);
+}
+
+.equals {
+    background-color: var(--Pure-cyan) !important;
+    box-shadow: 0 5px var(--Soft-cyan) !important;
+    color: var(--Very-dark-blue) !important;
+}
+
+.delete,
+.reset {
+    font-size: 1.1rem !important;
+    background-color: var(--Dark-violet) !important;
+    box-shadow: 0 4px var(--Vivid-magenta) !important;
+}
+
+.delete,
+.reset {
+    color: white !important;
+}

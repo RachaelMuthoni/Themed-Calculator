@@ -1,0 +1,55 @@
+@import "resources.css";
+body {
+    background-color: var(--Very-dark-desaturated-blue1);
+}
+
+.topbar {
+    color: white;
+}
+
+.selectTheme .chooseTheme {
+    background-color: var(--Very-dark-desaturated-blue2);
+}
+
+.theme1 {
+    background-color: var(--Red);
+}
+
+.input-field {
+    background-color: var(--Very-dark-desaturated-blue3);
+}
+
+.previous-operand {
+    color: white;
+}
+
+.current-operand {
+    color: white;
+}
+
+.allButton {
+    background-color: var(--Very-dark-desaturated-blue2);
+}
+
+.allButton button {
+    color: var(--Very-dark-grayish-blue);
+    box-shadow: 0 4px var(--Grayish-orange);
+}
+
+.equals {
+    background-color: var(--Red);
+    box-shadow: 0 5px var(--Dark-red) !important;
+}
+
+.delete,
+.reset {
+    font-size: 1.1rem !important;
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 0 5px hsl(224, 28%, 35%) !important;
+}
+
+.delete,
+.reset,
+.equals {
+    color: white !important;
+}
